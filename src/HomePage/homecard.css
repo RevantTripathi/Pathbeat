@@ -1,0 +1,38 @@
+.main-card{
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.title{
+    /* background-color: antiquewhite; */
+    height: 50px;
+    padding-left: 2%;
+}
+
+.details{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.m-image{
+    /* background-color: blue; */
+    width: 10%;
+    height: 70%;
+    
+}
+
+img{
+    width: 110px;
+    height: 130px;
+  
+    
+}
+.mini_desc{
+    /* background-color: aqua; */
+    padding: 2%;
+}
