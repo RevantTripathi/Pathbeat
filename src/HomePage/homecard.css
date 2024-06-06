@@ -2,21 +2,23 @@
     background-color: rgb(61, 61, 61);
     display: flex;
     flex-direction: column;
-    width: 70%;
-
+    width: 80%;
+    border: 2px solid grey;
 }
 
 .title{
     /* background-color: antiquewhite; */
-    height: 50px;
+    height: 30px;
+    /* padding-top: 0%; */
     padding-left: 2%;
+    padding-bottom: 1%;
 }
 
 .details{
     /* background-color: blueviolet; */
     display: flex;
     flex-direction: row;
-    padding: 2%;
+    padding: 1%;
 }
 
 .m-image{
@@ -29,10 +31,63 @@
 img{
     width: 110px;
     height: 130px;
+    /* padding: 1%; */
   
     
+}
+h3{
+    color: white;
 }
 .mini_desc{
     /* background-color: aqua; */
     padding: 2%;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .main-card{
+        width: 90%;
+        height: 150px;
+        
+    }
+    .title{
+        padding-bottom: 2%;
+    }
+    .details{
+        padding: 2%;
+    }
+
+    img{
+        width: 90px;
+        height: 90px;
+        padding: 2%;
+        
+    }
+
+}
+@media only screen and (max-width:1000px) {
+
+    .main-card{
+        width: 90%;
+    }
+    .title{
+        padding-bottom: 1%;
+    }
+    img{
+        width: 90px;
+        height: 100px;
+        padding: 1%;
+        
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .details{
+        padding: 2%;
+    }
+    img{
+        margin-top: 1%;
+    }
 }

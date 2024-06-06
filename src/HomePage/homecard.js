@@ -3,21 +3,21 @@ import './homecard.css'
 import Image from './ct.jpg'
 
 
-const HomeCard = () =>{
+const HomeCard = ({title,shortDesc,longDesc,imageUrl}) =>{
     return(
 
 <div className='main-card'>
     <div className='title'>
-        <h2>Hello peple</h2>
+        <h3>{title}</h3>
     </div>
     <div className='details'>
         {/* <div className='m-image'>
             <img src={Image}/>
              
         </div> */}
-        <img src={Image}/>
+        <img src={imageUrl} alt='icon'/>
         <div className='mini_desc'>
-            <h2>Hello myname is Revant</h2>
+            <h3>{shortDesc}</h3>
         </div>
     </div>
    
