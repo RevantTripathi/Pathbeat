@@ -1,9 +1,9 @@
 .main-card{
-    background-color: rgb(26, 26, 26);
+    background-color: #1c1a1a;
     display: flex;
     flex-direction: column;
     width: 80%;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     margin-bottom: 1%;
 }
 
