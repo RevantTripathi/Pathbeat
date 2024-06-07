@@ -1,27 +1,29 @@
 import React from 'react'
 import './homecard.css'
-import Image from './ct.jpg'
+import LongDesc from '../LongDescPage/longDesc';
+import { useNavigate } from 'react-router-dom';
 
 
-const HomeCard = ({title,shortDesc,longDesc,imageUrl}) =>{
-    return(
 
-<div className='main-card'>
-    <div className='title'>
-        <h3>{title}</h3>
-    </div>
-    <div className='details'>
-        {/* <div className='m-image'>
-            <img src={Image}/>
-             
-        </div> */}
-        <img src={imageUrl} alt='icon'/>
-        <div className='mini_desc'>
-            <h3>{shortDesc}</h3>
+const HomeCard = ({ title, shortDesc, longDesc, imageUrl }) => {
+
+    const navigate = useNavigate();
+    
+    return (
+
+        <div className='main-card'>
+           
+            <div className='title'>
+                <h3>{title}</h3>
+            </div>
+            <div className='details'>
+                <img src={imageUrl} alt='icon' />
+                <div className='mini_desc' onClick={() =>{navigate("/long", {state:{longDesc}})}}>
+                    <h3>{shortDesc}</h3>
+                </div>
+            </div>
+
         </div>
-    </div>
-   
-</div>
 
     )
 }
