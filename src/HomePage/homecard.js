@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const HomeCard = ({ title, shortDesc, longDesc, imageUrl }) => {
 
     const navigate = useNavigate();
-    
+
     return (
 
         <div className='main-card'>
@@ -18,7 +18,7 @@ const HomeCard = ({ title, shortDesc, longDesc, imageUrl }) => {
             </div>
             <div className='details'>
                 <img src={imageUrl} alt='icon' />
-                <div className='mini_desc' onClick={() =>{navigate("/long", {state:{longDesc}})}}>
+                <div className='mini_desc' onClick={() =>{navigate("/long", {state:{longDesc,title}})}}>
                     <h3>{shortDesc}</h3>
                 </div>
             </div>
