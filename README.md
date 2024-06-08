@@ -7,7 +7,7 @@
 
 ## Steps to restore database dump in MongoDB Atlas
 ### Open the cmd where the dump folder is stored 
-### command - mongorestore <connection link of the database where we want to restore the data> <file from where we need to retrive the data>
+### command - mongorestore (connection link of the database where we want to restore the data) (file from where we need to retrieve the data)
 ### example - mongorestore mongodb+srv://revanttripathi8:<password>@cluster0.fy7riae.mongodb.net/ dump\
 
 
