@@ -11,3 +11,20 @@
 ### example - mongorestore mongodb+srv://revanttripathi8:<password>@cluster0.fy7riae.mongodb.net/ dump\
 
 
+## Steps to run Build and run backend on local 
+### To make the build of backend - npm run build
+
+## To run the backend locally  -- Open the terminal and clone the repository  
+### git clone https://github.com/username/repository-name.git
+### Install dependencies --  npm install 
+
+## Steps to run Build and run a frontend on local 
+### To make the build of frontend - npm run build
+
+## To run the frontend locally  -- Open the terminal and clone the repository  
+### git clone https://github.com/username/repository-name.git
+### Install dependencies --  npm install 
+
+
+
+
