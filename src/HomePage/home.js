@@ -16,7 +16,7 @@ const Home = () => {
         try {
             // http://localhost:5000/data
             let { data } = await axios.get('https://pathbeat-backend.onrender.com/data')
-            https://pathbeat-backend.onrender.com
+            //   https://pathbeat-backend.onrender.com/data
             console.log(data)
             setData(data)
         } catch (error) {
